@@ -1,11 +1,13 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-body{
+
+body {
     background-color: black;
 }
-header{
+
+header {
     font-size: 18px;
     padding: 10px 8px;
     background-color: red;
@@ -14,24 +16,28 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-header ul{ 
+
+header ul {
     gap: 10px;
     display: flex;
     list-style: none;
 }
-header li{
+
+header li {
     gap: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.product{
+
+.product {
     gap: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.product button{
+
+.product button {
     height: 40px;
     width: 100px;
     background-color: white;
@@ -39,7 +45,8 @@ header li{
     border: none;
     border-radius: 10px;
 }
-.hero{
+
+.hero {
     padding: 5px 16px;
     font-size: 20px;
     background-color: black;
@@ -48,38 +55,45 @@ header li{
     align-items: center;
     justify-content: space-between;
 }
-.apex img{
+
+.apex img {
     height: 80%;
     width: 40%;
 }
-.apex{
+
+.apex {
     display: flex;
     gap: 20px;
     align-items: center;
 }
-.btn{
+
+.btn {
     display: flex;
     gap: 10px;
 }
-.price{
+
+.price {
     height: 40px;
     width: 120px;
     color: red;
     border: none;
     border-radius: 10px;
 }
-.demo{
-      height: 40px;
+
+.demo {
+    height: 40px;
     width: 180px;
     color: white;
     background-color: red;
     border: none;
     border-radius: 10px;
 }
-.extra img{
-    height: 40px;   
+
+.extra img {
+    height: 40px;
 }
-.background{
+
+.background {
     opacity: 90%;
     position: relative;
     background-image: url("pic/apex.background.png");
@@ -87,35 +101,40 @@ header li{
     height: 100vh;
     margin-bottom: 60px;
 }
-.background h1{
+
+.background h1 {
     position: absolute;
- height: 90vh;
- width: 100%;
- display: flex;
- align-items: center;
- justify-content: center;
-  font-size: 118px;
-  color: white;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  z-index: 10;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 118px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: 10;
 }
-.slash{
+
+.slash {
     position: absolute;
     top: 220px;
     left: 0px;
 }
-.t-slash{
+
+.t-slash {
     position: absolute;
     top: 170px;
     left: 0px;
 }
-.h-slash{
+
+.h-slash {
     position: absolute;
     top: 470px;
     left: 70px;
 }
-.line{
-   margin: auto;
+
+.line {
+    margin: auto;
     background-color: #444444;
     height: 57px;
     width: 80%;
@@ -128,25 +147,28 @@ header li{
     padding-right: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 .month {
     display: flex;
     justify-content: center;
-    align-items: center ;
-  background-color: #D81E27;
-  height: 57px;
-  width: 215px;
-  border-radius: 58px;
+    align-items: center;
+    background-color: #D81E27;
+    height: 57px;
+    width: 215px;
+    border-radius: 58px;
 }
-.third-part{
+
+.third-part {
     margin-top: 20px;
-   display: flex;
-   gap: 15px;
-   align-items: center;
+    display: flex;
+    gap: 15px;
+    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.block{
+
+.block {
     color: white;
     margin-top: 14px;
     margin-left: 12px;
@@ -155,22 +177,26 @@ header li{
     background-color: #292929;
     border-radius: 11px;
 }
-.block h1{
+
+.block h1 {
     font-size: 24px;
     margin-top: 39px;
     margin-left: 35px;
 }
-.block h3{
+
+.block h3 {
     font-size: 32px;
     margin-left: 35px;
     margin-top: 35px;
 }
-.block h5{
+
+.block h5 {
     font-size: 18px;
     margin-left: 35px;
     margin-top: 20px;
 }
-.double{
+
+.double {
     font-size: 18px;
     margin-left: 35px;
     margin-top: 34px;
@@ -178,16 +204,18 @@ header li{
     gap: 15px;
     margin-bottom: 44px;
 }
-.block button{
+
+.block button {
     height: 29px;
     width: 90%;
     background-color: #D81E27;
     color: white;
-     border: none;
-     border-radius: 17px;
-     margin-left: 20px;
+    border: none;
+    border-radius: 17px;
+    margin-left: 20px;
 }
-.download{
+
+.download {
     position: relative;
     margin-top: 10px;
     background-image: url(download.png);
@@ -195,40 +223,47 @@ header li{
     height: 90vh;
     width: 100%;
 }
-.download h1{
+
+.download h1 {
     position: absolute;
     color: white;
     font-size: 50px;
     top: 40px;
-   left: 100px;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    left: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-footer .end p{
-color: #8F9FA3;
-margin-top: 20px;
-font-size: 16px;
+
+footer .end p {
+    color: #8F9FA3;
+    margin-top: 20px;
+    font-size: 16px;
 
 }
-.end{
+
+.end {
     margin-left: 30px;
     width: 420px;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
-.end h3{
+
+.end h3 {
     margin-top: 20px;
     color: #D81E27;
 }
-.end  h4{
+
+.end h4 {
     margin-top: 10px;
     width: 340px;
     font-size: 24px;
 }
-.end img{
+
+.end img {
     height: 100px;
     width: 300px;
 }
-.end input{
+
+.end input {
     margin-top: 10px;
     padding-left: 10px;
     padding-top: 0px;
@@ -238,161 +273,196 @@ font-size: 16px;
     width: 344px;
     background-color: transparent;
 }
-.end button{
+
+.end button {
     margin-top: 20px;
     height: 30px;
-    width: 165px; 
+    width: 165px;
     border-radius: 50px;
     background-color: #D91E27;
     color: white;
     border: none;
 }
-.end-menu{
+
+.end-menu {
     color: #8F9FA3;
 }
-footer{
+
+footer {
     flex-wrap: wrap;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
-.last{
+
+.last {
     font-size: 20px;
     display: grid;
     gap: 10px;
 }
-.end-menu{
+
+.end-menu {
     display: flex;
-  gap: 40px;
+    gap: 40px;
 }
-.last h4{
+
+.last h4 {
     color: #D81E27;
 }
-.last p{
+
+.last p {
     color: white;
 }
 
 @media (max-width:1024px) {
-    header{
+    header {
         display: none;
     }
-    .apex p{
+
+    .apex p {
         font-size: 14px;
     }
-   
+
 }
+
 @media (max-width:890px) {
-    .apex p{
+    .apex p {
         display: none;
     }
-     .slash{
+
+    .slash {
         top: 190px;
         opacity: 30%;
-       
+
     }
-    .t-slash{
+
+    .t-slash {
         opacity: 60%;
-       
+
     }
-    .h-slash{
+
+    .h-slash {
         opacity: 30%;
     }
-    .download{
+
+    .download {
         height: 480px;
     }
-   .download h1{
-    font-size: 30px;
-    left: 60px;
-   }
-    
+
+    .download h1 {
+        font-size: 30px;
+        left: 60px;
+    }
+
 }
+
 @media (max-width:640px) {
-    .btn{
+    .btn {
         display: none;
     }
-    .background h1{
+
+    .background h1 {
         top: -140px;
         font-size: 50px;
     }
-    .background{
+
+    .background {
         height: 60vh;
     }
-    .slash{
+
+    .slash {
         top: 190px;
         opacity: 30%;
         height: 189px;
         width: 200px;
     }
-    .t-slash{
+
+    .t-slash {
         opacity: 60%;
         height: 200px;
         width: 220px;
     }
-    .h-slash{
+
+    .h-slash {
         opacity: 30%;
         height: 70px;
         top: 330px;
         left: 30px;
     }
-    .line{
+
+    .line {
         width: 90%;
         height: 40px;
         font-size: 16px;
     }
+
     .month {
         height: 40px;
         width: 24%;
         font-size: 14px;
     }
-    .block{
+
+    .block {
         width: 340px;
     }
-    .extra img{
-     height: 30px;
+
+    .extra img {
+        height: 30px;
     }
-    .download{
+
+    .download {
         background-repeat: no-repeat;
     }
-    .download h1{
+
+    .download h1 {
         font-size: 14px;
         left: 30px;
     }
-    .last p{
+
+    .last p {
         font-size: 10px;
     }
-    .last h4{
+
+    .last h4 {
         font-size: 12px;
     }
+
     .last {
-       margin:20px;
+        margin: 20px;
     }
-    .end-menu{
+
+    .end-menu {
         gap: 10px;
     }
-    .end{
-      margin: 10px;
+
+    .end {
+        margin: 10px;
     }
-    .end img{
+
+    .end img {
         height: 90px;
         width: 180px;
     }
-    .end p{
+
+    .end p {
         font-size: 12px;
     }
-    .end h3{
+
+    .end h3 {
         font-size: 18px;
     }
-    .end h4{
+
+    .end h4 {
         font-size: 20px;
     }
-    .end input{
+
+    .end input {
         width: 90%;
     }
 }
+
 @media (min-width:640px) {
-    .extra{
+    .extra {
         display: none;
     }
 }
-
-
