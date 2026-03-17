@@ -137,7 +137,7 @@ header li {
     margin: auto;
     background-color: #444444;
     height: 57px;
-    width: 80%;
+    width: 75%;
     border-radius: 58px;
     color: white;
     font-size: 24px;
@@ -157,7 +157,12 @@ header li {
     width: 215px;
     border-radius: 58px;
 }
-
+.line p{
+    background-color: white;
+    color: #292929;
+    padding: 14px;
+    border-radius: 30px;
+}
 .third-part {
     margin-top: 20px;
     display: flex;
